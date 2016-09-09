@@ -1,7 +1,64 @@
+.timer-container{
+    max-width: 400px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.length-container {
+    margin: 50px 0;
+}
+
+.break-container {
+    display: inline-block;
+}
+
+.session-container {
+    margin-left: 150px;
+    display: inline-block;
+}
+
+.break{
+    display:inline-block;
+}
+
+.break-minus{
+    display: inline-block;
+}
+
+.session-minus{
+    display: inline-block;
+}
+
+.session {
+    display: inline-block;
+}
+
+
+
+
+.control-buttons{
+    margin-top: 500px;
+    display: block;
+    text-align: center;
+}
+
+.control-buttons button{
+    margin: 0 20px;
+    border: 1px solid #000000;
+}
+
+button {
+    background: transparent;
+    border: none;
+}
+
+button:focus {outline:0;}
+/* =========Circular Loader================= */ 
+
 .loader{
     position: relative;
-    width: 50px;
-    height: 50px;
+    width: 400px;
+    height: 400px;
     float:left;
     user-select: none;
     box-sizing: border-box;
@@ -84,10 +141,10 @@
     transform: rotate(-90deg);
     transform-origin: 100% 100%;
 }
-.text
+.timer
 {
     text-align: center;
-    padding-top:32%;
-    font-size: 12px;     
+    line-height: 385px;
+    font-size: 30px;     
     color: rgba(0, 0, 0, 0.3);
 }
